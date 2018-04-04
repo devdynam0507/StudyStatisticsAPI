@@ -9,11 +9,11 @@ _dynam0507.pythonanywhere.com/userweekdata - ["username"]_ <br>
 _dynam0507.pythonanywhere.com/useraveragemonth - ["username"]_
 
 # Relationship between WebURL Enum and WebController function
-_WebURL.GET_USER_ALL_DATA - WebController.getUserData(id);_
-_WebURL.GET_USER_DATE_DATA - WebController.getUserCondData(id, year, month, day);_
-_WebURL.GET_USER_VALIDATE - WebController.existsUser(username, password);_
-_WebURL.GET_USER_WEEK_DATA - WebController.getStatisticsWeekData(username);_
-_WebURL.GET_USER_AVERAGE_MONTH - WebController.getStatisticsMonthAverageData(username);_
+_WebURL.GET_USER_ALL_DATA - WebController.getUserData(id);_ <br>
+_WebURL.GET_USER_DATE_DATA - WebController.getUserCondData(id, year, month, day);_<br>
+_WebURL.GET_USER_VALIDATE - WebController.existsUser(username, password);_<br>
+_WebURL.GET_USER_WEEK_DATA - WebController.getStatisticsWeekData(username);_<br>
+_WebURL.GET_USER_AVERAGE_MONTH - WebController.getStatisticsMonthAverageData(username);_<br>
 
 # StudyStatistics Java Example
 
