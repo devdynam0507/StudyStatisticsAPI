@@ -1,5 +1,5 @@
 # StudyStatisticsAPI
-[dynam0507.pythonanywhere.com](dynam0507.pythonanywhere.com)
+[dynam0507.pythonanywhere.com](http://dynam0507.pythonanywhere.com)
 
 # StudyStatistics Protocol - HTTP POST 
 _dynam0507.pythonanywhere.com/userdata - ["username"]_ <br>
