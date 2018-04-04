@@ -22,7 +22,7 @@ _WebURL.GET_USER_AVERAGE_MONTH - WebController.getStatisticsMonthAverageData(use
 WebController controller = ControllerFactory.create(WebURL.GET_USER_ALL_DATA).connect();
 
 /* JSONDataWrapper를 반환하는 함수를 호출합니다 */
-JSONDataWrapper<String> wrapper = controller.getUserData("dynam0507");
+JSONDataWrapper<String> wrapper = controller.getUserData("ID");
 
 /* {"0": {"math": 80, "science": 200, "english": 200, "korean": 80}, "1": {"math": 90, "science": 195, "english": 250, "korean": 140}, "2": {"math": 30, "science": 210, "english": 140, "korean": 70}, "3": {"math": 80, "science": 100, "english": 200, "korean": 200}, "4": {"math": 200, "science": 70, "english": 320, "korean": 290}}
  */ 
