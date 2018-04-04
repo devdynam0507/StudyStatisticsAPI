@@ -2,9 +2,9 @@
 [dynam0507.pythonanywhere.com](dynam0507.pythonanywhere.com)
 
 # StudyStatistics Protocol - HTTP POST 
-_dynam0507.pythonanywhere.com/userdata - [parameter "username"]_ <br>
-_dynam0507.pythonanywhere.com/userdatedata - [parameter, "year", "month", "day"]_ <br>
-_adynam0507.pythonanywhere.com/uservalid - [parameter, "username", "password"]_ <br>
+_dynam0507.pythonanywhere.com/userdata - ["username"]_ <br>
+_dynam0507.pythonanywhere.com/userdatedata - ["year", "month", "day"]_ <br>
+_adynam0507.pythonanywhere.com/uservalid - ["username", "password"]_ <br>
 _dynam0507.pythonanywhere.com/userweekdata - ["username"]_ <br>
 _dynam0507.pythonanywhere.com/useraveragemonth - ["username"]_
 
