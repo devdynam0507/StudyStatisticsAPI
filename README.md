@@ -2,10 +2,10 @@
 [dynam0507.pythonanywhere.com](dynam0507.pythonanywhere.com)
 
 # StudyStatistics Protocol - HTTP POST 
-_dynam0507.pythonanywhere.com/userdata - [parameter "username"] <br>
--dynam0507.pythonanywhere.com/userdatedata - [parameter, "year", "month", "day"] <br>
-_adynam0507.pythonanywhere.com/uservalid - [parameter, "username", "password"] <br>
-_dynam0507.pythonanywhere.com/userweekdata - ["username"] <br>
+_dynam0507.pythonanywhere.com/userdata - [parameter "username"]_ <br>
+-dynam0507.pythonanywhere.com/userdatedata - [parameter, "year", "month", "day"]_ <br>
+_adynam0507.pythonanywhere.com/uservalid - [parameter, "username", "password"]_ <br>
+_dynam0507.pythonanywhere.com/userweekdata - ["username"]_ <br>
 _dynam0507.pythonanywhere.com/useraveragemonth - ["username"]_
 
 # Relationship between WebURL Enum and WebController function
