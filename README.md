@@ -1,14 +1,14 @@
 # StudyStatisticsAPI
 [dynam0507.pythonanywhere.com](http://dynam0507.pythonanywhere.com)
 
-# StudyStatistics Protocol - HTTP POST 
+### StudyStatistics Protocol - HTTP POST 
 _dynam0507.pythonanywhere.com/userdata - ["username"]_ <br>
 _dynam0507.pythonanywhere.com/userdatedata - ["year", "month", "day"]_ <br>
 _adynam0507.pythonanywhere.com/uservalid - ["username", "password"]_ <br>
 _dynam0507.pythonanywhere.com/userweekdata - ["username"]_ <br>
 _dynam0507.pythonanywhere.com/useraveragemonth - ["username"]_
 
-# Relationship between WebURL Enum and WebController function
+### Relationship between WebURL Enum and WebController function
 _WebURL.GET_USER_ALL_DATA - WebController.getUserData(id);_ <br>
 _WebURL.GET_USER_DATE_DATA - WebController.getUserCondData(id, year, month, day);_<br>
 _WebURL.GET_USER_VALIDATE - WebController.existsUser(username, password);_<br>
