@@ -21,7 +21,8 @@ public class Main
             /* Get user data example */
             WebController controller1 = ControllerFactory.create(WebURL.GET_USER_ALL_DATA).connect();
             JSONDataWrapper<String> wrapper = controller1.getUserData("dynam0507");
-            System.out.println(wrapper.getSecondItem("0", "math"));
+            String view = wrapper.getSecondItem("0", "math");
+            System.out.println(view);
 
             /* Get user date data example */
             WebController controller2 = ControllerFactory.create(WebURL.GET_USER_DATE_DATA).connect();

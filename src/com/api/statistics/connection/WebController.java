@@ -1,8 +1,6 @@
 package com.api.statistics.connection;
 
 import com.api.statistics.json.JSONDataWrapper;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
 import java.io.BufferedReader;
@@ -11,7 +9,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.ConnectException;
 import java.net.HttpURLConnection;
-import java.net.ProtocolException;
 import java.net.URL;
 
 public class WebController {
@@ -26,7 +23,8 @@ public class WebController {
 
     private WebURL url;
 
-    public WebController(WebURL url)
+    /* Default constructor*/
+    WebController(WebURL url)
     {
         this.url = url;
     }
