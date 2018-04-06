@@ -15,7 +15,7 @@ public class WebController {
 
     private HttpURLConnection connection;
 
-    /*
+    /**
     * HTTP Server Adress:Django Port/response adress
     * */
     public static String DEFAULT_URL = "http://dynam0507.pythonanywhere.com/";
@@ -23,15 +23,12 @@ public class WebController {
 
     private WebURL url;
 
-    /* Default constructor*/
+    /** @param url response 주소*/
     WebController(WebURL url)
     {
         this.url = url;
     }
 
-    /*
-    * @param sUrl - study statistics url
-    * */
     public WebController connect() throws IOException
     {
         if(this.connection == null)
@@ -89,7 +86,7 @@ public class WebController {
     }
 
 // ====================================================================================================================//
-    /*
+    /**
     * 유저의 모든 데이터를 검색합니다.
     * */
     public JSONDataWrapper getUserData(String username) throws IOException, ParseException, ConnectException
@@ -101,7 +98,7 @@ public class WebController {
         return null;
     }
 
-    /*
+    /**
     *  해당 날짜의 유저 데이터를 검색합니다.
     */
     public JSONDataWrapper getUserCondData(String username, String year, String month, String day) throws IOException, ParseException, ConnectException
@@ -114,7 +111,7 @@ public class WebController {
         return null;
     }
 
-    /*
+    /**
     * 유저의 계정이 존재하는지 확인합니다.
     * */
     public JSONDataWrapper existsUser(String id, String password) throws IOException, ParseException, ConnectException
@@ -126,7 +123,7 @@ public class WebController {
         return null;
     }
 
-    /*
+    /**
     * 해당 유저의 주간 통계를 가져옵니다.
     * */
     public JSONDataWrapper getStatisticsWeekData(String username) throws IOException, ParseException, ConnectException
@@ -138,7 +135,7 @@ public class WebController {
         return null;
     }
 
-    /*
+    /**
     * 해당 유저의 월간 평균 통계를 가져옵니다.
     * */
     public JSONDataWrapper getStatisticsMonthAverageData(String username) throws IOException, ParseException, ConnectException

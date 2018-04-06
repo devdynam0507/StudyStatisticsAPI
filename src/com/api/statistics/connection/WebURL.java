@@ -2,7 +2,7 @@ package com.api.statistics.connection;
 
 public enum WebURL {
 
-    /* Web Response URLS */
+    /** Web Response URL */
     GET_USER_ALL_DATA(WebController.DEFAULT_URL + "response/userdata"),
     GET_USER_DATE_DATA(WebController.DEFAULT_URL + "response/userdatedata"),
     GET_USER_VALIDATE(WebController.DEFAULT_URL + "response/uservalid"),

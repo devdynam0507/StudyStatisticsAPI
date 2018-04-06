@@ -23,7 +23,7 @@ public class JSONDataWrapper<T> {
         return (T) object;
     }
 
-    /*
+    /**
     * @param1 = "3-31" or Number
     * @param2 = "math", "english"... etc
     * */

@@ -12,7 +12,7 @@ import java.net.ConnectException;
 public class Main
 {
 
-    /*
+    /**
     * Statistics Web Connector API Example
     * */
     public static void main(String... args) throws IOException, ParseException
@@ -49,7 +49,6 @@ public class Main
 
         }catch (ConnectException e)
         {
-            /* 인터넷 또는 서버 연결 실패시 실행되는 스코프 */
             System.out.println("[ERROR] 서버에 연결할수 없습니다.");
         }
     }
